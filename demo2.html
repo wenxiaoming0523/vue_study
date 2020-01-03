@@ -8,11 +8,14 @@
 
 <div id="app">
     <!--vue 判断语句-->
-    <h1>{{ message }}</h1>
-    <h2 v-if="num<5">我很小</h2>
-    <h2 v-else-if="num>=5 && num<18">我不大不小</h2>
-    <h2 v-else="">我很大</h2>
-
+    <!--vue 判断语句-->
+    <!--如果项目比较大的话 尽量使用template标签-->
+    <template v-if="finished">
+        <h1>{{ message }}</h1>
+        <h2 v-if="num<5">我很小</h2>
+        <h2 v-else-if="num>=5 && num<18">我不大不小</h2>
+        <h2 v-else="">我很大</h2>
+    </template>
 
 
 </div>
@@ -25,6 +28,7 @@
         el : "#app",
         data : {
             message : "本章节是关于逻辑判断语句",
+            finished : true,
             num : 8
         }
     })
