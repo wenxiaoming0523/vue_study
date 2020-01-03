@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--数据输出-->
+    <h1>{{ message }}</h1>
+
+    <!--数据双向绑定 v-model -->
+    <input type="text" v-model="message" name="" id="">
+</div>
+
+
+<!-- 引入vue   开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+    let app = new Vue({
+        el : "#app",
+        data : {
+            message : "hello vue2!"
+        }
+    })
+</script>
+
+</body>
+</html>
