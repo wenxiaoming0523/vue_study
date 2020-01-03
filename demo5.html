@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+
+    <template v-if="loaded">
+
+
+        <ul>
+            <li v-for="x in tools">{{x}}</li>
+
+        </ul>
+        <!--// index 输出索引-->
+        <div class="user" v-for="(x,index) in users">
+
+            <h3>{{x.name}} <span v-if="index === 0" style="color: aquamarine">这是个测试</span></h3>
+            <p>{{x.address}}</p>
+
+        </div>
+
+        <!--x 是值   y索引-->
+        <!--遍历json对象-->
+        <div class="hh" v-for="(value,property) in hh">
+
+            <h3>{{property}}</h3>
+            <p>{{value}}</p>
+
+        </div>
+
+        <!--遍历20个li-->
+        <ul>
+            <li v-for="x in 20">{{x}}</li>
+        </ul>
+
+        <!--备注：当点击完click事件后页面会进行刷新-->
+        <!--解决办法：-->
+        <!--1：在href="#" 可以解决-->
+        <!--2：在javascript中有个隐藏的 preventDefault()参数
+        showMessage(e){
+                e.preventDefault();
+                alert('this is a click event test');
+            }
+            -->
+        <!--3：直接使用v-on:click.prevent-->
+        <a href="" v-on:click.prevent="showMessage">click me</a>
+
+    </template>
+
+    <template v-else>
+
+        拼命加载中。。。
+
+    </template>
+
+</div>
+
+<!-- 引入vue   开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+    let app = new Vue({
+        el : "#app",
+        // loaded : false,
+        data:{
+            loaded : false,
+            tools:['php','java','python','c#','c++'],
+            users:null,
+            hh:null,
+
+        },
+
+        methods:{
+            showMessage(){
+              //  e.preventDefault();
+                alert('this is a click event test');
+            }
+        },
+
+        mounted(){
+            //ajax requset
+            setTimeout( ()=>{
+                this.users = [
+                    {'id':1,'name':'zhangsan','address':'shenzhen'},
+                    {'id':2,'name':'lis','address':'shanghai'},
+                    {'id':3,'name':'tony','address':'beijing'},
+                ];
+
+                this.hh ={
+                    php:"最好的开发语言",
+                    laravel:"php编程框架",
+                    vue:"前端三巨头",
+
+
+                };
+
+                this.loaded = true
+            },1000);
+        }
+    });
+</script>
+
+</body>
+</html>
