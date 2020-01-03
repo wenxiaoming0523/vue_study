@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="app">
+    <!--vue 判断语句-->
+    <h1>{{ message }}</h1>
+    <h2 v-if="num<5">我很小</h2>
+    <h2 v-else-if="num>=5 && num<18">我不大不小</h2>
+    <h2 v-else="">我很大</h2>
+
+
+
+</div>
+
+<!-- 引入vue   开发环境版本，包含了有帮助的命令行警告 -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+
+<script>
+    let app = new Vue({
+        el : "#app",
+        data : {
+            message : "本章节是关于逻辑判断语句",
+            num : 8
+        }
+    })
+</script>
+
+</body>
+</html>
