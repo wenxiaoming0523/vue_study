@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c1e93c4-d6cb-4882-bf1c-fcb2406ff094" name="Default Changelist" comment="" />
+    <list default="true" id="9c1e93c4-d6cb-4882-bf1c-fcb2406ff094" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/demo5.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo5.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,23 +20,23 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="5" />
+          <entry key="html" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="5" />
+          <entry key="HTML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1668" />
+          <entry key="html" value="1999" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1668" />
+          <entry key="HTML" value="1999" />
           <entry key="PLAIN_TEXT" value="2" />
         </counts>
       </usages-collector>
@@ -81,14 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo5.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="181">
+              <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="68" />
               <folding>
                 <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#template#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/demo6.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
             </state>
           </provider>
         </entry>
@@ -113,6 +124,7 @@
         <option value="$PROJECT_DIR$/demo3.html" />
         <option value="$PROJECT_DIR$/demo4.html" />
         <option value="$PROJECT_DIR$/demo5.html" />
+        <option value="$PROJECT_DIR$/demo6.html" />
       </list>
     </option>
   </component>
@@ -166,7 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.demo5.html">
+  <component name="RunManager" selected="JavaScript Debug.demo6.html">
     <configuration name="demo2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue_study/demo2.html">
       <method v="2" />
     </configuration>
@@ -179,14 +191,19 @@
     <configuration name="demo5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue_study/demo5.html">
       <method v="2" />
     </configuration>
+    <configuration name="demo6.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/vue_study/demo6.html">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="JavaScript Debug.demo2.html" />
       <item itemvalue="JavaScript Debug.demo3.html" />
       <item itemvalue="JavaScript Debug.demo4.html" />
       <item itemvalue="JavaScript Debug.demo5.html" />
+      <item itemvalue="JavaScript Debug.demo6.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.demo6.html" />
         <item itemvalue="JavaScript Debug.demo5.html" />
         <item itemvalue="JavaScript Debug.demo4.html" />
         <item itemvalue="JavaScript Debug.demo3.html" />
@@ -204,12 +221,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578019839352</updated>
-      <workItem from="1578019840641" duration="10147000" />
+      <workItem from="1578019840641" duration="12068000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10147000" />
+    <option name="totallyTimeSpent" value="12068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="981" extended-state="0" />
@@ -276,11 +293,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/demo5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="181">
+          <caret line="61" selection-start-line="61" selection-end-line="62" selection-end-column="68" />
           <folding>
             <element signature="n#style#0;n#span#0;n#h3#0;n#div#0;n#template#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/demo6.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
